@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARKARIHUBS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32409cc0b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <div class="header"> -->
+    <!-- Top Navigation Menu -->
+<div class="topnav">
+    <img src="logo.jpeg">
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="#contact" class="active">Home</a>
+      <a href="#news">Products</a>
+      <a href="Contact.html">Contact</a>
+      <a href="About.html">About Us</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fas fa-bars"></i>
+    </a>
+  </div>
+      <script>
+      /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+    <br>
+    <div class="welcome">
+        <marquee behavior=alternate>Welcome To Unique Filration System</marquee>
+    </div>
+    <!-- Ye slide wala section hai -->
+    <div class="slideshow-container">
+
+        <div class="contact-display">
+            <div class="left-display">
+                <i class="fas fa-envelope-square">&nbsp;vishwajeetgupta517@gmail.com</i>
+            </div>&nbsp;&nbsp;&nbsp;
+            <div class="right-display">
+                <i class="fab fa-whatsapp-square">&nbsp;<b>8390016317</b></i>
+            </div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="slide1.jpeg" style="width:100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="slide2.jpeg" style="width:100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="slide3.jpeg" style="width:100%">
+            <div class="text"></div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+    </script>
+    <div class="main-box">
+        <div class="category">
+            <ol class="vertical-navbar">
+                <li class="header">PRODUCTS</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ol>
+        </div>
+        <div class="up-box">
+            <br>
+            <h2>NOTE :- </h2>
+            <hr>
+            <br>
+            <h3>&nbsp;&nbsp;Welcome to Unique Filtration System</h3>
+            <br><b>अगर आप को कुछ भी प्रोडक्ट आर्डर करना है या फिर
+                आप को जानकारी लेना है तो नीचे Contact Us पे क्लिक करे
+                और फॉर्म को भरे ||</b>
+
+
+
+
+        </div>
+
+    </div>
+
+    <div class="title">
+        OUR PRODUCTS
+    </div>
+
+
+    <div class="section">
+        <div class="card">
+            <img src="domestic.crop.jpg" alt="Avatar" style="width:30%">
+            <div class="container">
+                <h4><b><a href="#">DOMESTIC RO</b></h4></a>
+                <p>Architect & Engineer</p>
+            </div>
+        </div>
+        <div class="card2">
+            <img src="domestic.crop.jpg" alt="Avatar" style="width:30%">
+            <div class="container2">
+                <h4><b><a href="#">DOMESTIC RO</b></h4></a>
+                <p>Architect & Engineer</p>
+            </div>
+        </div>
+        <div class="card3">
+            <img src="domestic.crop.jpg" alt="Avatar" style="width:30%">
+            <div class="container3">
+                <h4><b><a href="#">DOMESTIC RO</b></h4></a>
+                <p>Architect & Engineer</p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="section-2">
+        <div class="card4">
+            <img src="domestic.crop.jpg" alt="Avatar" style="width:30%">
+            <div class="container4">
+                <h4><b><a href="#">DOMESTIC RO</b></h4></a>
+                <p>Architect & Engineer</p>
+            </div>
+        </div>
+        <div class="card5">
+            <img src="domestic.crop.jpg" alt="Avatar" style="width: 30%">
+            <div class="container5">
+                <h4><b><a href="#">DOMESTIC RO</b></h4></a>
+                <p>Architect & Engineer</p>
+            </div>
+        </div>
+        <div class="card6">
+            <img src="domestic.crop.jpg" alt="Avatar" style="width:30%">
+            <div class="container6">
+                <h4><b><a href="#">DOMESTIC RO</b></h4></a>
+                <p>Architect & Engineer</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="section-3">
+        <div class="card7">
+            <img src="domestic.crop.jpg" alt="Avatar">
+            <div class="container7">
+                <h6><b>DOMESTIC RO</b></h6>
+                <p>Architect & Engineer</p>
+
+            </div>
+        </div>
+
+    </div>-->
+    <br>
+    <div class="simple-box">
+
+        <div class="new-arrive">
+            <div class="header">
+                OUR VISION
+            </div>
+            <p>To be a globally admired group for providing safe & purified water,
+                waste water to the people through innovative technologies and an approach of empathy</p>
+
+        </div>
+        <div class="client">
+            <div class="header">
+                MEMBER
+            </div>
+        </div>
+
+    </div>
+    <div class="second-box">
+       
+
+        <!-- Ye wala small slide ka hai code hai + javascript bhi hai -->
+        <div class="clientimage">
+            <div class="header">
+                OUR CLIENT
+            </div>
+            <div id="main">
+                <img src="chinagate.png" id="chinagate">
+            </div>
+
+
+            <script>
+                function first() {
+                    document.getElementById("chinagate").src = "lifestyle.jpeg";
+                }
+                function Second() {
+                    document.getElementById("chinagate").src = "kfc.jpeg";
+                }
+                function Third() {
+                    document.getElementById("chinagate").src = "pvr.png";
+                }
+                function Four() {
+                    document.getElementById("chinagate").src = "bombay.jpeg";
+                }
+                function Five() {
+                    document.getElementById("chinagate").src = "slide2.jpeg";
+                }
+                function Six() {
+                    document.getElementById("chinagate").src = "slide2.jpeg";
+                }
+                function Seven() {
+                    document.getElementById("chinagate").src = "slide2.jpeg";
+                }
+                setInterval(first, 1000);
+                setInterval(Second, 2000);
+                setInterval(Third, 3000);
+                setInterval(Four, 4000);
+                setInterval(Five, 5000);
+                setInterval(Six, 6000);
+                setInterval(Seven, 7000);
+            </script>
+        </div>
+    </div>
+
+    <!-- ye footer part ho bhai log -->
+    <div class="last-section">
+
+    <div class="footer">
+        <div class="about-us">
+            Unique Filtration System<br><br><br>
+
+            <p>
+            <h6>Unique Filtration System this is shiv<br> Lorem ipsum dolor
+                ibusdam illo similique<br> officia repellat?</p>
+            </h6>
+        </div>
+        <div class="Imporatant-link">
+            Products Links
+            <ul>
+                <li><a href="About.html">Domestic RO</a></li>
+                <li><a href="#">International RO</a></li>
+                <li><a href="#">Commercial RO</a></li>
+                <li><a href="#">Indurstial RO</a></li>
+                <li><a href="#">Water Softener</a></li>
+                <li><a href="#"> Water Vending Machine</a></li>
+
+
+            </ul>
+
+        </div>
+        <div class="address">
+            Address
+            <br><br>
+            <h2><i class="fas fa-map-marker-alt"></i></h2><br>
+            <p>
+            <h6>Mansoori APT Near By The Petrol Pump <br>
+                Santosh Bhuvan, Nallasopara-(east) <br>
+                Palghar-401209, Maharashtra</p>
+            </h6><br>
+            <i class="fas fa-envelope-open-text"></i><br>
+            <br>
+            <h6>shivlalgupta31@gmail.com</h6>
+            <br>
+            <i class="fas fa-phone-alt"></i><br>
+            <br>
+            <h6>+91 8390016317</h6>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+      <p> Copyright<i class="far fa-copyright"></i> 2021|Unique Filtration System (All Right Reserved)</p>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>

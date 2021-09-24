@@ -1,0 +1,60 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+.welcome{
+    border: 2px dotted blue;
+    margin-top: 15px;
+    font-weight: bold;
+    color: rgb(202, 93, 20);
+    font-size: 18px;
+}
+.logo{
+    text-align: center;
+
+}
+.logo img{
+    
+    width: 150px;
+    height: 150px;
+   border: 2px solid black;
+    border-radius: 35px;
+}
+.text{
+    padding: 10px;
+    
+}
+.vision-image{
+    text-align: center;
+    font-size: 18px;
+}
+.vision-image img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 10px;
+    
+}
+.mission-image{
+    text-align: center;
+    font-size: 18px;
+}
+.mission-image img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 10px;
+    
+}
+.over-years{
+    text-align: center;
+    font-size: 18px;
+}
+.over-years img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 10px;
+    
+}
+
